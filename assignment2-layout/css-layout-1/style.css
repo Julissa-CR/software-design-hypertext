@@ -1,0 +1,38 @@
+body {
+  color: white;
+  font-style: inherit;
+}
+
+
+a {
+  /*display: block;*/
+  padding: 0px 5px 5px 5px;
+}
+
+#white-box {
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  color: black;
+  width: 50%;
+  height: 50%;
+}
+#gray-box {
+  display: flex ;
+  justify-content:flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: gray;
+  float: right;
+  width: 50%;
+  height: 50%;
+}
+
+p {
+  padding: 0px 5px 5px 50px;
+}
+
+h2 {
+  padding: 0px 5px 0px 50px;
+}
