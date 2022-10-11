@@ -1,11 +1,23 @@
 body {
-  color: black;
+  color:black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h1 {
   color: black;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+h2 {
+  color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+  color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 .timeline{
   display: flex;
@@ -15,45 +27,78 @@ h1 {
 
 .babymilestone{
   display: flex;
-  border: 5px;
-  border-color: black;
-  border-width: 4px;
-  border-style: solid;
   background-color: white;
   height: 15cm;
   width: 5%;
- 
+  font-size:larger;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .milestone1{
   display: block;
-  border: 5px;
-  border-color: blue;
-  border-width: 4px;
-  border-style: solid;
   width: 10%;
+  background-image: url(../Baby_blocks/0-3.png);
+  background-size: cover;
+
 }
+
+.milestone1:hover{
+  background-color:#107F01;
+  opacity: 0.8;
+  filter: alpha(opacity=30);
+  background-blend-mode:overlay;
+  cursor: pointer;
+}
+
+
 .milestone2{
   display: block;
-  border: 5px;
-  border-color: orange;
-  border-width: 4px;
-  border-style: solid;
   width: 10%;
+  background-image: url(../Baby_blocks/cl-4-6.png);
+  background-size: auto;
+  background-position: center;
 }
+
+.milestone2:hover{
+  background-color: #E70106;
+  opacity: 0.8;
+  filter: alpha(opacity=30);
+  background-blend-mode:overlay;
+  cursor: pointer;
+}
+
 .milestone3{
   display: block;
-  border: 5px;
-  border-color: indigo;
-  border-width: 4px;
-  border-style: solid;
   width: 10%;
+  background-image: url(../Baby_blocks/7-9.png);
+  background-size: cover;
 }
+
+.milestone3:hover{
+  background-color: #0C6DFB;
+  opacity: 0.8;
+  filter: alpha(opacity=30);
+  background-blend-mode:overlay;
+  cursor: pointer;
+}
+
 .milestone4{
   display: block;
-  border: 5px;
-  border-color: red;
-  border-width: 4px;
-  border-style: solid;
   width: 10%;
+  background-image: url(../Baby_blocks/cl-10-12.png);
+  background-size: auto;
+  background-position: center;
 }
+
+.milestone4:hover{
+  background-color: #FDBA09;
+  opacity: 0.8;
+  filter: alpha(opacity=30);
+  background-blend-mode:overlay;
+  cursor: pointer;
+}
+
+#s1{ display: none;}
+#s2{ display: none;}
+#s3{ display: none;}
+#s4{ display: none;}
